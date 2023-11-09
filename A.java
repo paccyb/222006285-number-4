@@ -6,18 +6,18 @@ class A extends B implements E//class Aextend B implements
  {
   public void continent()
   {
-     System.out.println("africa");
+     System.out.println("AFRICA");
     
   }
   public void country()
   {
-    System.out.println("rwanda");
+    System.out.println("RWANDA");
    
 
   }
-  public void UNIVERSE()
+  public void universe()
   {
-System.out.println("earth");
+System.out.println("EARTH");
 }
 }
 
@@ -39,19 +39,19 @@ class D
  {
   public void sector()
   {
-    System.out.println("BUSASA");
+    System.out.println("BUSASAMANA");
   }
 }
 
-public class inheritance2 
+class inheritance2 
 {
   public static void main(String [] args)
   {
   A objectpaccy=new A();//oject main
 //calling method
+ objectpaccy.universe();
   objectpaccy.continent();
   objectpaccy.country();
-  objectpaccy.world();
   objectpaccy.province();
   objectpaccy.district();
   objectpaccy.sector();
